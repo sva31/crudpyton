@@ -17,7 +17,7 @@ import sys
 
 
 # CREATE A NEW TABLE and INSERT SOME VALUES
-def createtable(con):
+def createTable(con):
     with con:
 
         cur = con.cursor()
@@ -33,7 +33,7 @@ def createtable(con):
 
 
 # RETRIEVE TABLE ROWS
-def retrivetable(con):
+def retrieveTable(con):
     with con:
 
         cur = con.cursor(mdb.cursors.DictCursor)
@@ -84,8 +84,8 @@ try:
 
 
     # CRUD OPERATIONS
-    createtable(con)
-    retrivetable(con)
+    createTable(con)
+    retrieveTable(con)
     updateRow(con)
     deleteRow(con)
 
