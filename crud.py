@@ -73,7 +73,7 @@ def deleteRow(con):
 
 # SET UP THE CONNECTION
 try:
-    con = mdb.connect('localhost', 'alex', 'alex853', 'prove');
+    con = mdb.connect('HOST_NAME', 'USER_NAME', 'PWD', 'DB_NAME');
 
     cur = con.cursor()
     cur.execute("SELECT VERSION()")
