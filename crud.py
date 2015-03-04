@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 '''
-CRUD (Create Retrieve Update Delete) Operation for MySQL dbs using Python
+MySQL CRUD (Create Retrieve Update Delete) Operations using Python
 '''
 __author__ = "Alessandro Cucci"
 
