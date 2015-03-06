@@ -28,7 +28,7 @@ def createTable(con):
         cur.execute("INSERT INTO TableTest(Name) VALUES('Tizio')")
         cur.execute("INSERT INTO TableTest(Name) VALUES('Caio')")
         cur.execute("INSERT INTO TableTest(Name) VALUES('Sempronio')")
-        cur.execute("INSERT INTO TableTest(Name) VALUES('Scemo Dimmerda')")
+        cur.execute("INSERT INTO TableTest(Name) VALUES('Giulio Cesare')")
 
 
 
